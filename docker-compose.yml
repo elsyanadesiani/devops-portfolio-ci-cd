@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    image: elsyanadesiani/devops-portfolio-ci-cd:local
+    ports:
+      - "8000:8000"
